@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<link rel = "icon" href = "../add-item/images/icons/add.ico">
+
+	<title> Add Item | iBORROW </title>
+
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+
+	<link rel = "stylesheet" type="text/css" href = "https://www.w3schools.com/w3css/4/w3.css">
+	<link rel = "stylesheet" type="text/css" href = "https://fonts.googleapis.com/css?family=Raleway">
+	<link href = "https://www.1001freefonts.com/calligraphy-fonts.php">
+	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel = "stylesheet" type = "text/css" href = "../add-item/CSS/style.css">
+</head>
+
+<body class = "INDEX w3-center">
+	<br>
+	<div class = "H-PPWS w3-large" id = "top"> Welcome &nbsp to </div>
+	<span class = "SPAN"><b> &lt i B O R R O W &gt </span></b>
+	<br> <br> <br>
+
+	<div class = "w3-container w3-center w3-grey" style = "padding: 128px 16px">
+		<div class = "w3-row-padding" style = "margin-top: 64px">
+			<div class = "w3-section">
+				<ul class = "w3-ul w3-white w3-hover-shadow">
+					<li class = "w3-black w3-xlarge w3-padding-32">
+					<font color="green"><b> + ADD </b></font>
+						<span class = "w3-opacity w3-large"><br> n e w . i t e m <br></span>
+					</li>
+
+					<li class = "w3-padding-16">
+						<span class = "ERR w3-medium"> * Every field is <b>REQUIRED</b> to be filled up * </span>
+						<br> <br> <br>
+
+						<form action = "add.php" method = "post">
+							<div class = "col-md-12">
+								<table class = 'table table-hover table-responsive table-bordered'>
+								 
+								    <tr>
+								        <td><b class = "w3-medium"> Group # : </b></td>
+								        <td>
+								        	<input type = "radio" name = "grpno" value = "1" required> 1 &nbsp &nbsp
+											<input type = "radio" name = "grpno" value = "2" required> 2 &nbsp &nbsp
+											<input type = "radio" name = "grpno" value = "3" required> 3 &nbsp &nbsp
+											<input type = "radio" name = "grpno" value = "4" required> 4
+								        </td>
+								    </tr>
+								 
+								    <tr>
+								        <td><b class = "w3-medium"> ID # : </b></td>
+								        <td>
+								        	<input type = "text" name = "idno" required>
+								        </td>
+								    </tr>
+								 
+								    <tr>
+								        <td><b class = "w3-medium"> Borrower's Name : </b></td>
+								        <td>
+								        	<input type = "text" name = "name" placeholder = "Last Name, First Name" required>
+								        </td>
+								    </tr>
+								 
+								    <tr>
+								        <td><b class = "w3-medium"> Item Name : </b></td>
+								        <td>
+								        	<select name = "itemname" required>
+												<option value = "" hidden> ---- </option>
+											    <option value = "Broom"> Broom </option>
+											    <option value = "Broomstick"> Broomstick </option>
+											    <option value = "Dust Pan"> Dust Pan </option>
+											    <option value = "Pale"> Pale </option>
+											    <option value = "Tabo"> Tabo </option>
+											</select>
+								        </td>
+								    </tr>
+								 
+								    <tr>
+								        <td><b class = "w3-medium"> Quantity : </b></td>
+								        <td>
+								        	<select name = "qnty" required>
+												<option value = "" hidden> 1 - 10 </option>
+											    <option value = "1"> 1 </option>
+											    <option value = "2"> 2 </option>
+											    <option value = "3"> 3 </option>
+											    <option value = "4"> 4 </option>
+											    <option value = "5"> 5 </option>
+											    <option value = "6"> 6 </option>
+											    <option value = "7"> 7 </option>
+											    <option value = "8"> 8 </option>
+											    <option value = "9"> 9 </option>
+											    <option value = "10"> 10 </option>
+											</select>
+								        </td>
+								    </tr>
+
+								    <tr>
+								    	<td><b class = "w3-medium"> Remarks : </b></td>
+								    	<td>
+								    		<input type = "text" name = "rem" value = "none" required>
+								    	</td>
+								    </tr> 
+								</table>
+								<br> <br>
+							</div>
+
+							<input type = "submit" value = "+ ADD ITEM" class = "BUTTON w3-button w3-red w3-large w3-animate-opacity w3-hover-green">
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<footer class = "FOOTER">
+	    <a href = "#top" class = "w3-button">
+	      <i class = "fa fa-arrow-up w3-margin-right"></i> TO THE TOP 
+	    </a>
+
+	    <br> <br>
+	    <p class = "TEAM"> Team &nbsp Makder &nbsp | &nbsp All Rights Reserved ©️ 2019 </p>
+	</footer>
+</body>
+</html>

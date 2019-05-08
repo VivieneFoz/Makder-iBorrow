@@ -1,0 +1,57 @@
+body, html {
+	height: 100%;
+	line-height: 1.8;
+}
+
+body {
+  	font-family: "Raleway"
+}
+
+.SPAN {
+	font-size: 55px;
+	background: -webkit-linear-gradient(#b5e7a0, black);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	box-shadow: 0 30px 50px rgba(0,0,0,.5);
+}
+
+.P-INDEX {
+	color: black;
+}
+
+.H {
+	background-color: #82b74b;
+	padding: 50px;
+}
+
+.H-PPWS{
+	text-align: center;
+}
+
+.ERR {
+	color: #FF0000;
+	font-family: sans-serif;
+}
+
+.BUTTON {
+	border-radius: 80px;
+}
+
+.FOOTER {
+	bottom: 0;
+	width: 100%;
+	color: white;
+	height: 3rem;
+	font-size: 13px;
+	padding-top: 30px;
+	position: relative;
+	text-align: center;
+	padding-bottom: 100px;
+	background-color: black;
+}
+
+.TEAM {
+	color: #feb236;
+	font-size: 15px;
+	font-family: sans-serif;
+}
